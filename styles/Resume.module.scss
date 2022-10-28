@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    margin: 0 auto;
+    padding: 24px 24px 0 24px;
+}
+
+.pageTitle {
+    font-size: 3rem;
+}
+
+.divider {
+    line-height: 1.5;
+    margin: 12px 0;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.columnContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+}
+
+.address {
+    font-size: 1.5rem;
+}
+
+.email {
+    font-size: 1.5rem;
+}
+
+.text {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    margin-top: 12px;
+}
+
+.experienceBox {
+    margin-top: 24px;
+}
+
+.experienceTitle {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.experienceDesc {
+    font-size: 1.2rem;
+    line-height: 24px;
+    padding-left: 8px;
+}
+
+.experienceList {
+    list-style: circle;
+    margin-left: 24px;
+}
