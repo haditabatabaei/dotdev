@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.alignEnd {
+    align-items: flex-end;
+}
+
+.alignStart {
+    align-items: flex-start;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+.justifyStart {
+    justify-content: flex-start;
+}

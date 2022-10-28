@@ -19,22 +19,18 @@
 }
 
 .contactContainer {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-.columnContainer {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
 }
 
 .sectionTitle {
     font-size: 2rem;
+    margin-right: 32px;
 }
 
 .address {
     font-size: 1.5rem;
+    margin-right: 24px;
 }
 
 .email {
@@ -45,24 +41,4 @@
     line-height: 1.5;
     font-size: 1.4rem;
     margin-top: 12px;
-}
-
-.experienceBox {
-    margin-top: 24px;
-}
-
-.experienceTitle {
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
-
-.experienceDesc {
-    font-size: 1.2rem;
-    line-height: 24px;
-    padding-left: 8px;
-}
-
-.experienceList {
-    list-style: circle;
-    margin-left: 24px;
 }
